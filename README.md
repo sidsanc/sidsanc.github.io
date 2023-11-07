@@ -1,2 +1,2 @@
 # sidsanc.github.io
-SIddhant Sancheti's Portfolio Page
+Siddhant Sancheti's Portfolio Page
