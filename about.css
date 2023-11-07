@@ -1,0 +1,30 @@
+/* Add these styles to your existing styles.css file */
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 10px 10px 30px #bebec3, -10px -10px 30px #ffffff;
+}
+
+#about-me {
+    background: #e0e5ec;
+    margin: 20px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #bebec3, -5px -5px 20px #ffffff;
+    max-width: 800px;
+}
+
+#about-me h1 {
+    color: #528bff;
+    margin-bottom: 20px;
+}
+
+#about-me p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
