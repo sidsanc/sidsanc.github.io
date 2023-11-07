@@ -1,0 +1,76 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #c3cfe2 0%, #c3cfe2 100%);
+    color: #333;
+}
+
+header {
+    background: #e0e5ec;
+    box-shadow: 20px 20px 60px #bebec3, -20px -20px 60px #ffffff;
+    padding: 20px 0;
+}
+
+nav {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    padding: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #528bff;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #528bff;
+}
+
+main {
+    padding: 50px 0;
+}
+
+section#about {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    background: #e0e5ec;
+    border-radius: 10px;
+    box-shadow: 20px 20px 60px #bebec3, -20px -20px 60px #ffffff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #e0e5ec;
+    box-shadow: inset 20px 20px 60px #bebec3, inset -20px -20px 60px #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
